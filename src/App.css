@@ -1,0 +1,49 @@
+* {
+    padding: 20px;
+    background-color: #1d1145;
+    text-align: center;
+}
+
+#root {
+  display: flex;
+  justify-content: flex;
+}
+
+.todolist-main {
+
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid  #0db4b9;;
+  width: 165px;
+    font-size: 12px;
+    color: #e76d89;
+}
+
+button {
+  font-size: 12px;
+  margin: 10px;
+  padding: 10px;
+  color:  #0db4b9;
+}
+
+button:hover {
+  background-color: #f2a1a1;
+}
+
+ul.list li {
+  background-color: #f2a1a1;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px;
+  list-style: none;
+
+
+}
+
+ul.list {
+  padding: 0;
+}
